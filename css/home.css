@@ -2,7 +2,7 @@
 header {
 	min-height: 100vh;
 	background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55) 70%, rgba(66, 134, 244, 0.45) 99%),
-	url("../img/minecraft.png") no-repeat center center;
+	url("../img/Splash.avif") no-repeat center center;
 	background-size: cover;
 	user-select: none
 }
