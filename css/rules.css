@@ -8,83 +8,13 @@ header {
 }
 /* Main Content */
 
-.img {
-	transition: all 0.4s ease;
-	padding-bottom: 10px;
-}
 
-.img:hover {
-	transform: scale(1.05);
-}
-
-.about-text {
-	padding-bottom: 30px;
-	padding-top: 10px;
-}
-
-.gradient {
-	margin-top: 20px;
-	color: black;
-	text-align: center;
-	padding: 30px;
-	background-size: cover;
-	background: linear-gradient(#4286f4, #70d8ff) fixed;
-}
-
-.flex-container {
-	margin: 0 auto;
-	max-width: 1100px;
-	display: flex;
-	flex-wrap: wrap;
-}
-
-.split,
-.vote {
-	flex: 1 0 auto;
-}
-
-.vote-btn {
-	background-color: rgb(255,255,255);
-	border: 2px solid #595a5b;
-	padding: 20px 40px;
-	outline: none;
-	cursor: pointer;
-	transition-duration: 0.4s;
-	text-transform: uppercase;
-}
-
-.vote-btn:hover {
-	background-color: #595a5b;
-	color: white;
-}
-
-.vote-container {
-	display: flex;
-	flex-wrap: wrap;
-	margin: 25px auto 0 auto;
-	max-width: 1100px;
-	justify-content: space-around;
-	border-top: 1px solid;
-}
-
-.vote-section {
+.center {
+	
+	color: aliceblue;
 	text-align: center;
 	max-width: 900px;
 	margin: 0 auto;
-}
-
-.split,
-.vote {
-	padding: 5px;
-	margin: 10px;
-}
-
-.split {
-	flex-basis: 250px;
-}
-
-.vote {
-	flex-basis: 210px;
 }
 
 /* Media Queries */
