@@ -4,7 +4,7 @@ header {
 	background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.55) 70%, rgba(133, 0, 126, 0.493) 99%),
 	url("../img/Splash.avif") no-repeat center center;
 	background-size: cover;
-	user-select: none
+	
 }
 
 .playercount {
@@ -14,6 +14,22 @@ header {
 	font-size: 0.7em;
 	color: white;
 	text-align: center;
+}
+
+.serveraddress { 
+	display: inline-block;
+	background: none;
+	border: none;
+	padding: 3px;
+	font-size: 1em;
+	font-family: Lato;
+	color: cyan;
+	text-align: center;
+}
+
+.serveraddress:hover {
+	color: #008080;
+	cursor: pointer;
 }
 
 .playercount span {
