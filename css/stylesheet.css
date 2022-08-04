@@ -47,10 +47,10 @@ header {
 
 .nav a {
 	background-color: #ad7f29;
-	color: rgb(255, 255, 255);
+	color: aliceblue;
 	text-decoration: none;
 	padding: 4px;
-	border-radius: 7%;
+	border-radius: 10%;
 }
 
 .header {
@@ -79,7 +79,7 @@ header h1 {
 
 .nav li {
 	text-transform: uppercase;
-	font-weight: 600;
+	font-weight: bold;
 }
 
 .logo {

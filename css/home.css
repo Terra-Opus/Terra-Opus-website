@@ -59,18 +59,19 @@ header {
 }
 
 .vote-btn {
-	background-color: rgb(255,255,255);
-	border: 2px solid #595a5b;
-	padding: 20px 40px;
-	outline: none;
-	cursor: pointer;
-	transition-duration: 0.4s;
-	text-transform: uppercase;
+	background-color: #ad7f29;
+	color: aliceblue;
+	text-decoration: none;
+	padding: 18px 30px;
+	border: 2px solid #121212;
+	border-radius: 10%;
+	font-size: large;
+	font-weight: bold;
 }
 
 .vote-btn:hover {
-	background-color: #595a5b;
-	color: white;
+	background-color: #8a6520;
+	color: aliceblue;
 }
 
 .vote-container {
